@@ -3,6 +3,14 @@
 ## 🚀 Project Overview
 I successfully deployed this high-fidelity agentic loop using the **Llama-3.3-70B** engine. This project serves as the production-grade evolution of the Alfred series, prioritizing **Infrastructure-First** design and **Defensive Engineering** to ensure mission stability under extreme API constraints.
 
+### 📊 Infrastructure Performance: 70B vs. 8B
+To maintain **Production-Readiness**, I audited the v14 engine across two infrastructure tiers. This comparison establishes the baseline for our **Resiliency Design** [cite: 2025-12-23, 2025-12-27].
+
+![Mission Comparison](./assets/forensic-audit-upbeat-gala-comparison.png)
+
+* **70B (Production):** Optimized for high-fidelity reasoning and speed, achieving a **9.97s latency** with **19,102 tokens** [cite: 2025-12-23].
+* **8B (Sandbox):** Stress-tested for durability, managing a massive **40,534 token loop** over **8 minutes** to verify my **Forensic Governor** [cite: 2025-12-23].
+
 ### 🛠 The "Infrastructure-First" Stack
 * **Engine:** Llama-3.3-70B (via Groq Cloud)
 * **Framework:** `smolagents` (Hugging Face)
