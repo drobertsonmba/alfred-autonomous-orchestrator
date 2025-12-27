@@ -4,7 +4,7 @@
 I successfully deployed this high-fidelity agentic loop using the **Llama-3.3-70B** engine. This project serves as the production-grade evolution of the Alfred series, prioritizing **Infrastructure-First** design and **Defensive Engineering** to ensure mission stability under extreme API constraints.
 
 ### 📊 Infrastructure Performance: 70B vs. 8B
-To maintain **Production-Readiness**, I audited the v14 engine across two infrastructure tiers. This comparison establishes the baseline for our **Resiliency Design** [cite: 2025-12-23, 2025-12-27].
+To maintain **Production-Readiness**, I audited the v14 engine across two infrastructure tiers. This comparison establishes the baseline for our **Resiliency Design** [cite: 2025-12-23].
 
 ![Mission Comparison](./assets/forensic-audit-upbeat-gala-comparison.png)
 
